@@ -37,10 +37,17 @@ Set or change the user e-mail
 </code>
 <br>
 
-//
+Check the history of all changes logs (To quit VIM editor press :q)
 <br>
 <code>
     git log
+</code>
+<br>
+
+Check the history of the last 2 changes logs
+<br>
+<code>
+    git log -2
 </code>
 <br>
 
