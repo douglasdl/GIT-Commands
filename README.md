@@ -1,12 +1,12 @@
 # GIT-Commands
 
 ## Concepts
-Master: main code.
-Branch: creates a copy from the master as a parallel sub version.
-Fork: request to merge your branch code changes to the master code.
-Commit:
-Push: 
-Pull: request to send files
+Master: main code.<br>
+Branch: creates a copy from the master as a parallel sub version.<br>
+Fork: request to merge your branch code changes to the master code.<br>
+Commit:<br>
+Push: <br>
+Pull: request to send files<br>
 
 ## Commands
 
