@@ -44,14 +44,14 @@ Clone a directory to your PC
 </code>
 <br>
 
-//
+Add the new files, directories or changes to be sent to Github
 <br>
 <code>
     git add .
 </code>
 <br>
 
-//
+Send the changes or new files and directories to Github, giving a description about these changes
 <br>
 <code>
     git commit -m "Initial import"
