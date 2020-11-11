@@ -111,7 +111,35 @@ Send to files to Github to share
 </code>
 <br>
 
-Create e new branch
+Check the name of the remote repository from Github
+<br>
+<code>
+    git remote
+</code>
+<br>
+
+Check the name of the remote repository from Github with verbose
+<br>
+<code>
+    git remote -v
+</code>
+<br>
+
+Send to files to Github to share
+<br>
+<code>
+    git push origin
+</code>
+<br>
+
+Send to files to Github to share
+<br>
+<code>
+    git push origin master
+</code>
+<br>
+
+Create a new branch
 <br>
 <code>
     git checkout -b new-branch-name
