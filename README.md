@@ -23,6 +23,54 @@ Set or change the user e-mail
 </code>
 <br>
 
+//
+<br>
+<code>
+    git log
+</code>
+<br>
+
+//
+<br>
+<code>
+    git status
+</code>
+<br>
+
+Clone a directory to your PC
+<br>
+<code>
+    git clone <address>
+</code>
+<br>
+
+//
+<br>
+<code>
+    git add .
+</code>
+<br>
+
+//
+<br>
+<code>
+    git commit -m "Initial import"
+</code>
+<br>
+
+Send to files to Github to share
+<br>
+<code>
+    git push
+</code>
+<br>
+
+Create e new branch
+<br>
+<code>
+    git checkout -b new-branch-name
+</code>
+<br>
 
 
 <p align="center">Desenvolvido por Douglas Dias Leal</p>
