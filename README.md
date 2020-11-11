@@ -1,5 +1,13 @@
 # GIT-Commands
 
+## Concepts
+Master: main code.
+Branch: creates a copy from the master as a parallel sub version.
+Fork: request to merge your branch code changes to the master code.
+Commit:
+Push: 
+Pull: request to send files
+
 ## Commands
 
 Check a directory settings
