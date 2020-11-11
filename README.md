@@ -16,6 +16,13 @@ Set or change the user name
 </code>
 <br>
 
+Set or change the user e-mail
+<br>
+<code>
+    git config --global user.email "douglas_san@hotmail.com"
+</code>
+<br>
+
 
 
 <p align="center">Desenvolvido por Douglas Dias Leal</p>
