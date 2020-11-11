@@ -61,7 +61,7 @@ Check the history of the last 2 changes logs
 Clone a directory to your PC
 <br>
 <code>
-    git clone <address>
+    git clone [address]
 </code>
 <br>
 
@@ -77,7 +77,7 @@ Add a folder from your local folder to Github
 Add a new file to be sent to Github
 <br>
 <code>
-    git add <file>
+    git add [file]
 </code>
 <br>
 
