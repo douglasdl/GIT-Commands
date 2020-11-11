@@ -12,7 +12,7 @@ Branch: creates a copy from the master as a parallel sub version.<br>
 Fork: create a copy from the master to your account to use independently.<br>
 Commit: Save the files.<br>
 Push: <br>
-Pull: request to send files request to merge your branch code changes to the master code.<br>
+Pull Request: request to send files request to merge your branch code changes to the master code.<br>
 
 ## Commands
 
