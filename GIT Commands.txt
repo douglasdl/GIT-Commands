@@ -1,3 +1,7 @@
+<h1 align="center">
+    How to use Git Commands and Github
+</h1>
+
 Clone a directory to your PC
 git clone <address>
 
