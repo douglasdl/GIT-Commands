@@ -65,6 +65,14 @@ Clone a directory to your PC
 </code>
 <br>
 
+## Adding Files and Directories to Github
+Add a folder from your local folder to Github
+<br>
+<code>
+    git init
+</code>
+<br>
+
 ## Adding Files and Directories to be Commited
 Add a new file to be sent to Github
 <br>
