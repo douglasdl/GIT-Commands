@@ -44,13 +44,30 @@ Clone a directory to your PC
 </code>
 <br>
 
-Add the new files, directories or changes to be sent to Github
+## Adding Files and Directories to be Commited
+Add a new file to be sent to Github
+<br>
+<code>
+    git add <file>
+</code>
+<br>
+
+Add ALL the new files, directories or changes to be sent to Github
 <br>
 <code>
     git add .
 </code>
 <br>
 
+## Removing Files and Directories to be Commited
+Discard the changes in a working directory to be sent to Github
+<br>
+<code>
+    git restore <file>
+</code>
+<br>
+
+## Commiting the Files
 Send the changes or new files and directories to Github, giving a description about these changes
 <br>
 <code>
@@ -58,6 +75,7 @@ Send the changes or new files and directories to Github, giving a description ab
 </code>
 <br>
 
+## Sending the Files
 Send to files to Github to share
 <br>
 <code>
