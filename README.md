@@ -89,6 +89,13 @@ Send the changes or new files and directories to Github, giving a description ab
 </code>
 <br>
 
+Send all the changes or new files and directories to Github, giving a description about these changes
+<br>
+<code>
+    git commit -a -m "Initial import"
+</code>
+<br>
+
 ## Sending the Files
 Send to files to Github to share
 <br>
