@@ -92,7 +92,14 @@ Add ALL the new files, directories or changes to be sent to Github
 Discard the changes in a working directory to be sent to Github
 <br>
 <code>
-    git restore <file>
+    git restore [file]
+</code>
+<br>
+    
+Discard the changes in a working directory to be sent to Github
+<br>
+<code>
+    git rm --cached [file]
 </code>
 <br>
 
