@@ -11,8 +11,8 @@ Master: main code.<br>
 Branch: creates a copy from the master as a parallel sub version.<br>
 Fork: create a copy from the master to your account to use independently.<br>
 Commit: Save the files.<br>
-Push: <br>
-Pull Request: request to send files request to merge your branch code changes to the master code.<br>
+Push: request to send files request to merge your branch code changes to the master code.<br>
+Pull Request: request the files updates from Github to synchonize your local folder.<br>
 
 ## Commands
 
@@ -108,6 +108,14 @@ Create e new branch
 <br>
 <code>
     git checkout -b new-branch-name
+</code>
+<br>
+
+## Receiving the Files
+Get files from Github to update your local folder
+<br>
+<code>
+    git pull
 </code>
 <br>
 
