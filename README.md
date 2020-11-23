@@ -13,6 +13,9 @@ Fork: create a copy from the master to your account to use independently.<br>
 Commit: Save the files.<br>
 Push: request to send files request to merge your branch code changes to the master code.<br>
 Pull Request: request the files updates from Github to synchonize your local folder.<br>
+Working Directory: 
+Stage (Index):
+History:
 
 ## Commands
 
@@ -58,14 +61,25 @@ Check the history of the last 2 changes logs
 </code>
 <br>
 
-Clone a directory to your PC
+Clone a local directory to your PC
 <br>
 <code>
     git clone [address]
 </code>
 <br>
 
-## Adding Files and Directories to Github
+Clone a remote directory to your PC
+<br>
+<code>
+    git clone user@server:[address]
+</code>
+<br>
+
+
+
+
+
+## Create a new Repository
 Add a folder from your local folder to Github
 <br>
 <code>
@@ -73,7 +87,8 @@ Add a folder from your local folder to Github
 </code>
 <br>
 
-## Adding Files and Directories to be Commited
+
+## Copy files from WORK DIRECTORY to STAGE(INDEX)
 Add a new file to be sent to Github
 <br>
 <code>
@@ -85,6 +100,13 @@ Add ALL the new files, directories or changes to be sent to Github
 <br>
 <code>
     git add .
+</code>
+<br>
+
+Make interactive inclusions
+<br>
+<code>
+    git add -i
 </code>
 <br>
 
@@ -103,7 +125,7 @@ Discard the changes in a working directory to be sent to Github
 </code>
 <br>
 
-## Commiting the Files
+## Copy files from STAGE(INDEX) to HISTORY
 Send the changes or new files and directories to Github, giving a description about these changes
 <br>
 <code>
@@ -161,6 +183,15 @@ Create a new branch
 </code>
 <br>
 
+## Copy files from WORKING DIRECTORY directly to HISTORY
+Equivalent to running git add on all filenames that existed in the latest commit, and then running git commit.
+<br>
+<code>
+    git commit -a
+</code>
+<br>
+
+
 ## Receiving the Files
 Get files from Github to update your local folder
 <br>
@@ -168,6 +199,29 @@ Get files from Github to update your local folder
     git pull
 </code>
 <br>
+
+## GIT
+Interface gráfica padrão
+<br>
+<code>
+    gitk
+</code>
+<br>
+
+Usar Saídas do GIT Coloridas
+<br>
+<code>
+    git config color.ui true
+</code>
+<br>
+
+Exibir Log em Apenas uma Linha por Commit
+<br>
+<code>
+    git config format.pretty oneline
+</code>
+<br>
+
 
 
 <p align="center">Desenvolvido por Douglas Dias Leal</p>
