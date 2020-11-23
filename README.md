@@ -1,6 +1,29 @@
 # GIT
 Version control software.
 
+<br>
+Interface gráfica padrão
+<br>
+<code>
+    gitk
+</code>
+<br>
+
+Usar Saídas do GIT Coloridas
+<br>
+<code>
+    git config color.ui true
+</code>
+<br>
+
+Exibir Log em Apenas uma Linha por Commit
+<br>
+<code>
+    git config format.pretty oneline
+</code>
+<br>
+
+
 # Github
 Web service that uses GIT to host files and handle in a friendly interface.
 
@@ -200,27 +223,6 @@ Get files from Github to update your local folder
 </code>
 <br>
 
-## GIT
-Interface gráfica padrão
-<br>
-<code>
-    gitk
-</code>
-<br>
-
-Usar Saídas do GIT Coloridas
-<br>
-<code>
-    git config color.ui true
-</code>
-<br>
-
-Exibir Log em Apenas uma Linha por Commit
-<br>
-<code>
-    git config format.pretty oneline
-</code>
-<br>
 
 
 
