@@ -52,16 +52,32 @@ Check a directory settings
 Set or change the user name
 <br>
 <code>
-    git config --global user.name "Douglas Dias Leal"
+    git config --global user.name "username"
 </code>
 <br>
 
 Set or change the user e-mail
 <br>
 <code>
-    git config --global user.email "douglas_san@hotmail.com"
+    git config --global user.email "email"
 </code>
 <br>
+
+Set or change the user name (only for current repository)
+<br>
+<code>
+    git config user.name "username"
+</code>
+<br>
+
+Set or change the user e-mail (only for current repository)
+<br>
+<code>
+    git config user.email "email"
+</code>
+<br>
+
+
 
 Check the history of all changes logs (To quit VIM editor press :q)
 <br>
