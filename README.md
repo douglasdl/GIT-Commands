@@ -1,6 +1,31 @@
 # GIT
 Version control software.
 
+
+<br>
+Install Git
+<br>
+<code>
+    sudo apt-get install git-core
+</code>
+<br>
+
+<br>
+Install Git
+<br>
+<code>
+    sudo useradd git
+</code>
+<br>
+
+<br>
+Install Git
+<br>
+<code>
+    passwd git
+</code>
+<br>
+
 <br>
 Interface gráfica padrão
 <br>
