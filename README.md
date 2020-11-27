@@ -414,6 +414,5 @@ Display help
     help
 </code>
 <br>
-   
 
 <p align="center">Desenvolvido por Douglas Dias Leal</p>
