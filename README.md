@@ -268,6 +268,7 @@ Get files from Github to update your local folder
 
 ## Ignore files
 Create a .gitignore file to track the files that must be ignored
+<br>
 LINUX
 <br>
 <code>
