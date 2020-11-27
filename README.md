@@ -267,7 +267,7 @@ Get files from Github to update your local folder
 
 # CLASP (GIT tool for Google Apps Script)
 
-##Installation
+## Installation
 Installation (Need to install Node.js and NPM before)
 <br>
 <code>
@@ -275,7 +275,7 @@ Installation (Need to install Node.js and NPM before)
 </code>
 <br>
 
-##Login
+## Login
 Log in to script.google.com to authorize managment of your account
 <br>
 <code>
@@ -283,7 +283,7 @@ Log in to script.google.com to authorize managment of your account
 </code>
 <br>
 
-##Logout
+## Logout
 Log out from your Google account
 <br>
 <code>
@@ -291,7 +291,7 @@ Log out from your Google account
 </code>
 <br>
 
-##Create
+## Create
 Create a new Google Apps Script project. First you need to authorize the API at https://script.google.com/home/usersettings 
 <br>
 <code>
@@ -299,7 +299,7 @@ Create a new Google Apps Script project. First you need to authorize the API at 
 </code>
 <br>
 
-##Clone
+## Clone
 Clone an existing project
 <br>
 <code>
@@ -307,7 +307,7 @@ Clone an existing project
 </code>
 <br>
  
-##Pull
+## Pull
 Download a script project
 <br>
 <code>
@@ -315,7 +315,7 @@ Download a script project
 </code>
 <br> 
 
-##Push
+## Push
 Update the remote project
 <br>
 <code>
@@ -323,7 +323,7 @@ Update the remote project
 </code>
 <br>
 
-##Versions
+## Versions
 List versions of a script
 <br>
 <code>
@@ -331,7 +331,7 @@ List versions of a script
 </code>
 <br>
 
-##Deploy
+## Deploy
 First create an immutable version of the Apps Script project.
 <br>
 <code>
@@ -369,7 +369,7 @@ Open the project in the Apps Script editor
 </code>
 <br> 
  
-##Other commands
+## Other commands
 Lists files that will be pushed by clasp
 <br>
 <code>
