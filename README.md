@@ -345,6 +345,7 @@ Undeploy a deployment of a project
 <code>
     clasp deploy [version] [description]
 </code>
+<br>
 <code>
     clasp undeploy <deploymentId>
 </code>
@@ -405,12 +406,15 @@ List, enable, or disable APIs
 <code>
     apis [options]                              
 </code>
+<br>
 <code>
     list
 </code>
+<br>
 <code>
     enable <api>
 </code>
+<br>
 <code>    
     disable <api>
 </code>
