@@ -267,6 +267,7 @@ Get files from Github to update your local folder
 
 # CLASP (GIT tool for Google Apps Script)
 
+##Installation
 Installation (Need to install Node.js and NPM before)
 <br>
 <code>
@@ -274,7 +275,145 @@ Installation (Need to install Node.js and NPM before)
 </code>
 <br>
 
+##Login
+Log in to script.google.com to authorize managment of your account
+<br>
+<code>
+    clasp login
+</code>
+<br>
 
+##Logout
+Log out from your Google account
+<br>
+<code>
+    clasp logout
+</code>
+<br>
 
+##Create
+Create a new Google Apps Script project. First you need to authorize the API at https://script.google.com/home/usersettings 
+<br>
+<code>
+    clasp create [scriptTitle]
+</code>
+<br>
+
+##Clone
+Clone an existing project
+<br>
+<code>
+    clasp clone <scriptId>
+</code>
+<br>
+ 
+##Pull
+Download a script project
+<br>
+<code>
+    clasp pull
+</code>
+<br> 
+
+##Push
+Update the remote project
+<br>
+<code>
+    clasp push
+</code>
+<br>
+
+##Versions
+List versions of a script
+<br>
+<code>
+    clasp versions
+</code>
+<br>
+
+##Deploy
+First create an immutable version of the Apps Script project.
+<br>
+<code>
+    clasp version [description]
+</code>
+<br>
+
+Deploy a project.<br>
+Undeploy a deployment of a project
+<br>
+<code>
+    clasp deploy [version] [description]
+    clasp undeploy <deploymentId>
+</code>
+<br>
+ 
+Update an existing deployment with a new version and description
+<br>
+<code>
+    clasp redeploy <deploymentId> <version> <description>
+</code>
+<br> 
+
+List deployments
+<br>
+<code>
+    clasp deployments
+</code>
+<br> 
+
+Open the project in the Apps Script editor
+<br>
+<code>
+    clasp open
+</code>
+<br> 
+ 
+##Other commands
+Lists files that will be pushed by clasp
+<br>
+<code>
+    status [options]
+</code>
+<br> 
+
+List App Scripts projects
+<br>
+<code>
+    list
+</code>
+<br>
+
+Shows the StackDriver logs
+<br>
+<code>
+    logs [options]
+</code>
+<br>
+
+Run a function in your Apps Scripts project
+<br>
+<code>
+    run [options] [functionName]
+</code>
+<br>
+
+List, enable, or disable APIs
+<br>
+<code>
+    apis [options]                              
+    list
+    enable <api>
+    disable <api>
+</code>
+<br>
+
+Display help
+<br>
+<code>
+    help
+</code>
+<br>
+   
 
 <p align="center">Desenvolvido por Douglas Dias Leal</p>
