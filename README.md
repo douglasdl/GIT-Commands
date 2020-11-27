@@ -265,6 +265,26 @@ Get files from Github to update your local folder
 <br>
 
 
+
+## Ignore files
+Create a .gitignore file to track the files that must be ignored
+LINUX
+<br>
+<code>
+    touch .gitignore
+</code>
+<br>
+WINDOWS
+<br>
+<code>
+    notepad .gitignore
+</code>
+<br>
+
+
+
+
+
 # CLASP (GIT tool for Google Apps Script)
 
 ## Installation
