@@ -337,10 +337,17 @@ Download a script project
 <br> 
 
 ## Push
-Update the remote project
+Update the remote project (upload all files)
 <br>
 <code>
     clasp push
+</code>
+<br>
+
+Update the remote project every time you save a modified file (upload all files)
+<br>
+<code>
+    clasp push -w
 </code>
 <br>
 
