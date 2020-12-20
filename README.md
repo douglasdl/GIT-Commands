@@ -308,6 +308,14 @@ Create a new branch and switch to it
 <br>
 
 
+# Merge Branches
+Merge the currently selected brance to another branch
+<br>
+<code>
+    git merge [branchname]
+</code>
+<br>
+
 
 ## Ignore files
 Create a .gitignore file to track the files that must be ignored
