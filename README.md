@@ -118,7 +118,7 @@ Check the history of the last 2 changes logs
 </code>
 <br>
 
-//
+Check the staus of your project
 <br>
 <code>
     git status
@@ -261,6 +261,49 @@ Get files from Github to update your local folder
 <br>
 <code>
     git pull
+</code>
+<br>
+
+## Change Branch
+Show all the banches
+<br>
+<code>
+    git branch
+</code>
+<br>
+
+Switch from one branch to another
+<br>
+<code>
+    git checkout [branchname]
+</code>
+<br>
+
+Switch from one branch to another
+<br>
+<code>
+    git switch [branchname]
+</code>
+<br>
+
+Switch back to previous branch
+<br>
+<code>
+    git switch -
+</code>
+<br>
+
+Create a new branch and switch to it
+<br>
+<code>
+    git checkout -b [branchname]
+</code>
+<br>
+
+Create a new branch and switch to it
+<br>
+<code>
+    git switch -c [branchname]
 </code>
 <br>
 
