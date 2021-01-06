@@ -204,6 +204,12 @@ Send all the changes or new files and directories to Github, giving a descriptio
 </code>
 <br>
 
+Edit the commit message  
+`git commit --amend`  
+
+
+
+
 ## Sending the Files
 Send to files to Github to share
 <br>
