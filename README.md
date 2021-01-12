@@ -189,6 +189,14 @@ Discard the changes in a working directory to be sent to Github
 </code>
 <br>
 
+## Removing Untracked Files and Directories from workspace
+Dry run to see which files you’ll delete
+`git clean -n -d`
+
+Delete all untracked files and direcories
+`git clean -f -d`
+
+
 ## Copy files from STAGE(INDEX) to HISTORY
 Send the changes or new files and directories to Github, giving a description about these changes
 <br>
