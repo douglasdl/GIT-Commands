@@ -136,6 +136,10 @@ Add a folder from your local folder to Github
 </code>
 <br>
 
+## Create a new Repository (on Server)
+Create a new Git Project on Server  
+`git init --bare my-project.git`  
+
 
 ## Copy files from WORK DIRECTORY to STAGE(INDEX)
 Add a new file to be sent to Github
