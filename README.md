@@ -318,6 +318,21 @@ Merge the currently selected brance to another branch
     git merge [branchname]
 </code>
 <br>
+  
+  
+# Delete a Branch  
+Delete branch locally  
+<code>
+    git branch -d [localBranchName]
+</code>
+<br>
+
+
+Delete branch remotely  
+<code>
+    git push origin --delete [remoteBranchName]
+</code>
+<br>
 
 
 ## Ignore files
@@ -502,8 +517,7 @@ List, enable, or disable APIs
 </code>
 <br>
 
-Display help
-<br>
+Display help  
 <code>
     help
 </code>
