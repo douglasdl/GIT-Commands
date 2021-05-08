@@ -4,18 +4,25 @@ Version control software.
 # Github
 Web service that uses GIT to host files and handle in a friendly interface.
 
-## Concepts
-Repository: a folder that contens the files of a project.<br>
-Readme: document that explains the details of your project.<br>
-Master: main code.<br>
-Branch: creates a copy from the master as a parallel sub version.<br>
-Fork: create a copy from the master to your account to use independently.<br>
+## Concepts  
+Repo: same as Repository.
+Repository: a folder that contens the files of a project.  
+Readme: document that explains the details of your project.  
+Master: main code.  
+Branch: creates a copy from the master as a parallel sub version.  
+Fork: create a copy from the master to your account to use independently.  
 Commit: Save the files.<br>
-Push: request to send files request to merge your branch code changes to the master code.<br>
-Pull Request: request the files updates from Github to synchonize your local folder.<br>
-Working Directory: 
-Stage (Index):
-History:
+Push: request to send files request to merge your branch code changes to the master code.  
+Pull Request: request the files updates from Github to synchonize your local folder.  
+Working Directory:  the files that you are currently working on.  
+Working Tree: same as Working Directory.  
+Index: same as Staging Area.
+Staging Area: intermediary area where commits are prepared.  
+History: the versions from your project that can be restored.    
+Tracked Files: files included in your project to be monitored.  
+Untracked Files: files not included in your project to be monitored.  
+Ignored Files: files included in your .gitignore file to be ignored from your project and to not be monitored.  
+Tree States (Tracked Files) : Modified, Staged, Committed.  
 
 ## Commands
 
