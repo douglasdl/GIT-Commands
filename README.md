@@ -27,474 +27,350 @@ Tree States (Tracked Files) : Modified, Staged, Committed.
 ## Commands
 
 Check a directory settings
-<br>
-<code>
+```sh
     git config --list
-</code>
-<br>
+```
 
 Set or change the user name
-<br>
-<code>
+```sh
     git config --global user.name "username"
-</code>
-<br>
+```
 
 Set or change the user e-mail
-<br>
-<code>
+```sh
     git config --global user.email "email"
-</code>
-<br>
+```
 
 Set or change the user name (only for current repository)
-<br>
-<code>
+```sh
     git config user.name "username"
-</code>
-<br>
+```
 
 Set or change the user e-mail (only for current repository)
-<br>
-<code>
+```sh
     git config user.email "email"
-</code>
-<br>
-
+```
 
 
 Check the history of all changes logs (To quit VIM editor press :q)
-<br>
-<code>
+```sh
     git log
-</code>
-<br>
+```
 
 Check the history of the last 2 changes logs
-<br>
-<code>
+```sh
     git log -2
-</code>
-<br>
+```
 
 Check the staus of your project
-<br>
-<code>
+```sh
     git status
-</code>
-<br>
+```
 
 Clone a local directory to your PC
-<br>
-<code>
+```sh
     git clone [address]
-</code>
-<br>
+```
 
 Clone a remote directory to your PC
-<br>
-<code>
+```sh
     git clone user@server:[address]
-</code>
-<br>
-
-
-
+```
 
 
 ## Create a new Repository
 Add a folder from your local folder to Github
-<br>
-<code>
+```sh
     git init
-</code>
-<br>
+```
 
 ## Create a new Repository (on Server)
 Create a new Git Project on Server  
-`git init --bare my-project.git`  
-
+```sh
+    git init --bare my-project.git  
+```
 
 ## Copy files from WORK DIRECTORY to STAGE(INDEX)
 Add a new file to be sent to Github
-<br>
-<code>
+```sh
     git add [file]
-</code>
-<br>
+```
 
 Add ALL the new files, directories or changes to be sent to Github
-<br>
-<code>
+```sh
     git add .
-</code>
-<br>
+```
 
 Make interactive inclusions
-<br>
-<code>
+```sh
     git add -i
-</code>
-<br>
+```
 
 ## Removing Files and Directories to be Commited
 Discard the changes in a working directory to be sent to Github
-<br>
-<code>
+```sh
     git restore [file]
-</code>
-<br>
+```
     
 Discard the changes in a working directory to be sent to Github
-<br>
-<code>
+```sh
     git rm --cached [file]
-</code>
-<br>
+```
 
 ## Removing Untracked Files and Directories from workspace
 Dry run to see which files you’ll delete
-`git clean -n -d`
+```sh
+    git clean -n -d
+```
 
 Delete all untracked files and direcories
-`git clean -f -d`
-
+```sh
+    git clean -f -d
+```
 
 ## Copy files from STAGE(INDEX) to HISTORY
 Send the changes or new files and directories to Github, giving a description about these changes
-<br>
-<code>
+```sh
     git commit -m "Initial import"
-</code>
-<br>
+```
 
 Send all the changes or new files and directories to Github, giving a description about these changes
-<br>
-<code>
+```sh
     git commit -a -m "Initial import"
-</code>
-<br>
+```
 
 Edit the commit message  
-`git commit --amend`  
-
-
-
+```sh
+    git commit --amend
+```  
 
 ## Sending the Files
 Send to files to Github to share
-<br>
-<code>
+```sh
     git push
-</code>
-<br>
+```
 
 Check the name of the remote repository from Github
-<br>
-<code>
+```sh
     git remote
-</code>
-<br>
+```
 
 Check the name of the remote repository from Github with verbose
-<br>
-<code>
+```sh
     git remote -v
-</code>
-<br>
+```
 
 Send to files to Github to share
-<br>
-<code>
+```sh
     git push origin
-</code>
-<br>
+```
 
 Send to files to Github to share
-<br>
-<code>
+```sh
     git push origin master
-</code>
-<br>
+```
 
 Create a new branch
-<br>
-<code>
+```sh
     git checkout -b new-branch-name
-</code>
-<br>
+```
 
 ## Copy files from WORKING DIRECTORY directly to HISTORY
 Equivalent to running git add on all filenames that existed in the latest commit, and then running git commit.
-<br>
-<code>
+```sh
     git commit -a
-</code>
-<br>
-
+```
 
 ## Receiving the Files
 Get files from Github to update your local folder
-<br>
-<code>
+```sh
     git pull
-</code>
-<br>
+```
 
 ## Change Branch
 Show all the banches
-<br>
-<code>
+```sh
     git branch
-</code>
-<br>
+```
 
 Switch from one branch to another
-<br>
-<code>
+```sh
     git checkout [branchname]
-</code>
-<br>
+```
 
 Switch from one branch to another
-<br>
-<code>
+```sh
     git switch [branchname]
-</code>
-<br>
+```
 
 Switch back to previous branch
-<br>
-<code>
+```sh
     git switch -
-</code>
-<br>
+```
 
 Create a new branch and switch to it
-<br>
-<code>
+```sh
     git checkout -b [branchname]
-</code>
-<br>
+```
 
 Create a new branch and switch to it
-<br>
-<code>
+```sh
     git switch -c [branchname]
-</code>
-<br>
+```
 
 
 # Merge Branches
 Merge the currently selected brance to another branch
-<br>
-<code>
+```sh
     git merge [branchname]
-</code>
-<br>
-  
+```
   
 # Delete a Branch  
 Delete branch locally  
-<code>
+```sh
     git branch -d [localBranchName]
-</code>
-<br>
-
+```
 
 Delete branch remotely  
-<code>
+```sh
     git push origin --delete [remoteBranchName]
-</code>
-<br>
-
+```
 
 ## Ignore files
-Create a .gitignore file to track the files that must be ignored
-<br>
-LINUX
-<br>
-<code>
+Create a .gitignore file (LINUX)
+```sh
     touch .gitignore
-</code>
-<br>
-WINDOWS
-<br>
-<code>
+```
+Create a .gitignore file (WINDOWS)
+```sh
     notepad .gitignore
-</code>
-<br>
-
-
-
+```
 
 
 # CLASP (GIT tool for Google Apps Script)
 
 ## Installation
 Installation (Need to install Node.js and NPM before)
-<br>
-<code>
+```sh
     npm install @google/clasp -g
-</code>
-<br>
+```
 
 ## Login
 Log in to script.google.com to authorize managment of your account
-<br>
-<code>
+```sh
     clasp login
-</code>
-<br>
+```
 
 ## Logout
 Log out from your Google account
-<br>
-<code>
+```sh
     clasp logout
-</code>
-<br>
+```
 
 ## Create
 Create a new Google Apps Script project. First you need to authorize the API at https://script.google.com/home/usersettings 
-<br>
-<code>
+```sh
     clasp create [scriptTitle]
-</code>
-<br>
+```
 
 ## Clone
 Clone an existing project
-<br>
-<code>
+```sh
     clasp clone <scriptId>
-</code>
-<br>
+```
  
 ## Pull
 Download a script project
-<br>
-<code>
+```sh
     clasp pull
-</code>
-<br> 
+``` 
 
 ## Push
 Update the remote project (upload all files)
-<br>
-<code>
+```sh
     clasp push
-</code>
-<br>
+```
 
 Update the remote project every time you save a modified file (upload all files)
-<br>
-<code>
+```sh
     clasp push -w
-</code>
-<br>
+```
 
 ## Versions
 List versions of a script
-<br>
-<code>
+```sh
     clasp versions
-</code>
-<br>
+```
 
 ## Deploy
 First create an immutable version of the Apps Script project.
-<br>
-<code>
+```sh
     clasp version [description]
-</code>
-<br>
+```
 
 Deploy a project.<br>
 Undeploy a deployment of a project
-<br>
-<code>
+```sh
     clasp deploy [version] [description]
-</code>
-<br>
-<code>
+```
+  
+```sh
     clasp undeploy <deploymentId>
-</code>
-<br>
+```
  
 Update an existing deployment with a new version and description
-<br>
-<code>
+```sh
     clasp redeploy <deploymentId> <version> <description>
-</code>
-<br> 
+``` 
 
 List deployments
-<br>
-<code>
+```sh
     clasp deployments
-</code>
-<br> 
+``` 
 
 Open the project in the Apps Script editor
-<br>
-<code>
+```sh
     clasp open
-</code>
-<br> 
+``` 
  
 ## Other commands
 Lists files that will be pushed by clasp
-<br>
-<code>
+```sh
     status [options]
-</code>
-<br> 
+``` 
 
 List App Scripts projects
-<br>
-<code>
+```sh
     list
-</code>
-<br>
+```
 
 Shows the StackDriver logs
-<br>
-<code>
+```sh
     logs [options]
-</code>
-<br>
+```
 
 Run a function in your Apps Scripts project
-<br>
-<code>
+```sh
     run [options] [functionName]
-</code>
-<br>
+```
 
 List, enable, or disable APIs
-<br>
-<code>
+```sh
     apis [options]                              
-</code>
-<br>
-<code>
+```
+```sh
     list
-</code>
-<br>
-<code>
+```
+```sh
     enable <api>
-</code>
-<br>
-<code>    
+```
+```sh    
     disable <api>
-</code>
-<br>
+```
 
 Display help  
-<code>
+```sh
     help
-</code>
-<br>
+```
 
 <p align="center">Desenvolvido por Douglas Dias Leal</p>
