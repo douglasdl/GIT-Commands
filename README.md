@@ -127,6 +127,11 @@ Delete all untracked files and direcories
 ```sh
     git clean -f -d
 ```
+  
+Cancel changes from working area file
+```sh
+    git checkout -- <file>
+```
 
 ## Copy files from STAGE(INDEX) to HISTORY
 Send the changes or new files and directories to Github, giving a description about these changes
