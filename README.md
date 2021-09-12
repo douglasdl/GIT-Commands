@@ -250,6 +250,7 @@ Create a .gitignore file (WINDOWS)
 ```sh
     notepad .gitignore
 ```
+[gitignore generator](https://www.toptal.com/developers/gitignore)
 
 
 # CLASP (GIT tool for Google Apps Script)
