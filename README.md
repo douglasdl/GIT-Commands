@@ -90,6 +90,15 @@ Create a new Git Project on Server
     git init --bare my-project.git  
 ```
 
+## Add an existing local repository to an empty repository (on Server)
+```sh
+git init
+git add .
+git commit -m "First commit"
+git remote add origin user@server:[address]
+git push -u origin master
+```
+
 ## Copy files from WORK DIRECTORY to STAGE(INDEX)
 Add a new file to be sent to Github
 ```sh
