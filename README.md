@@ -184,10 +184,6 @@ Send to files to Github to share
     git push origin master
 ```
 
-Create a new branch
-```sh
-    git checkout -b new-branch-name
-```
 
 ## Copy files from WORKING DIRECTORY directly to HISTORY
 Equivalent to running git add on all filenames that existed in the latest commit, and then running git commit.
@@ -222,9 +218,15 @@ Switch back to previous branch
     git switch -
 ```
 
-Create a new branch and switch to it
+Create a new branch and switch to it (1 step)
 ```sh
     git checkout -b [branchname]
+```
+
+Create a new branch and switch to it (2 steps)
+```sh
+git branch [branchname]
+git checkout [branchname]
 ```
 
 Create a new branch and switch to it
