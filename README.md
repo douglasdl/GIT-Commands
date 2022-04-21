@@ -121,6 +121,22 @@ Send all the commited files to the server
 git push --all origin
 ```
 
+## Change an existing local repository to another repository (Server)
+```sh
+git remote -v
+# View existing remotes
+# origin  https://github.com/user/repo.git (fetch)
+# origin  https://github.com/user/repo.git (push)
+
+git remote set-url origin https://github.com/user/repo2.git
+# Change the 'origin' remote's URL
+
+git remote -v
+# Verify new remote URL
+# origin  https://github.com/user/repo2.git (fetch)
+# origin  https://github.com/user/repo2.git (push)
+```
+
 ## Copy files from WORK DIRECTORY to STAGE(INDEX)
 Add a new file to be sent to Github
 ```sh
