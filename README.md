@@ -91,12 +91,34 @@ Create a new Git Project on Server
 ```
 
 ## Add an existing local repository to an empty repository (on Server)
+Create the local git repo
 ```sh
 git init
+```
+Add all working files to stage
+```sh
 git add .
+```
+Commit the files
+```sh
 git commit -m "First commit"
+```
+Connect the local repository to a remote empty repository
+```sh
 git remote add origin user@server:[address]
+```
+Send all the commited files to the server
+```sh
 git push -u origin master
+```
+or
+Connect the local repository to a remote empty repository
+```sh
+git remote add origin user@server:[address]
+```
+Send all the commited files to the server
+```sh
+git push --all origin
 ```
 
 ## Copy files from WORK DIRECTORY to STAGE(INDEX)
