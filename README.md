@@ -116,7 +116,7 @@ Connect the local repository to a remote empty repository
 ```sh
 git remote add origin user@server:[address]
 ```
-Send all the commited files to the server
+Send all the committed files to the server
 ```sh
 git push --all origin
 ```
