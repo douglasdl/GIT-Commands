@@ -62,7 +62,7 @@ Check the history of the last 2 changes logs
     git log -2
 ```
 
-Check the staus of your project
+Check the status of your project
 ```sh
     git status
 ```
