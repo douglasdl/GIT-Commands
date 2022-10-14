@@ -278,6 +278,11 @@ Merge the currently selected brance to another branch
 ```sh
     git merge [branchname]
 ```
+
+Merge Branches when "fatal: refusing to merge unrelated histories" error occurs.
+```sh
+git merge --allow-unrelated-histories origin/[branchName]
+```
   
 # Delete a Branch  
 Delete branch locally  
